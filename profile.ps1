@@ -1,6 +1,5 @@
-$ENV:SCOOP = "$HOME\scoop\apps"
-$ENV:STARSHIP_CONFIG = "$SCOOP\starship\current\prompt.toml"
-$ENV:KOMOREBI_CONFIG_HOME = "$SCOOP\komorebi\current"
+$ENV:STARSHIP_CONFIG = "$HOME\scoop\apps\starship\current\prompt.toml"
+$ENV:KOMOREBI_CONFIG_HOME = "$HOME\scoop\apps\komorebi\current"
 Set-Alias -Name lvim -Value C:\Users\Vicen\.local\bin\lvim.ps1
 Set-Alias -Name c -Value clear
 Set-Alias -Name off -Value C:\Users\Vicen\turn-off-screen.ps1
